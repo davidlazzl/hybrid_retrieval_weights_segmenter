@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "davidlazzl-adrank_jd465"
+name = "davidlazzl-hybrid_retrieval_weights_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对广告召回与排序工程师·混合检索的权重调节相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://davidlazzl.github.io"
-Repository = "https://github.com/davidlazzl/adrank_jd465"
-Issues = "https://github.com/davidlazzl/adrank_jd465/issues"
+Repository = "https://github.com/davidlazzl/hybrid_retrieval_weights_segmenter"
+Issues = "https://github.com/davidlazzl/hybrid_retrieval_weights_segmenter/issues"
 
 [project.scripts]
-adrank_jd465 = "adrank_jd465:main"
+hybrid_retrieval_weights_segmenter = "hybrid_retrieval_weights_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["adrank_jd465"]
+py-modules = ["hybrid_retrieval_weights_segmenter"]
